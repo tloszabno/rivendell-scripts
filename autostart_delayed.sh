@@ -1,0 +1,13 @@
+#!/bin/bash
+
+sleep 5
+
+dropbox stop && DBUS_SESSION_BUS_ADDRESS="" dropbox start  			# icon did not show in tray
+
+/home/tomek/Skrypty/dropbox_kicker.sh & # sometimes dropbox gets break
+/home/tomek/Skrypty/plank_kicker.sh & # after few hours plank is sluggy
+#/home/tomek/Skrypty/albert_kicker.sh &  # normal kill to safe partially alberts freq
+
+#chrome middle button
+gconftool-2 --type string --set /apps/metacity/general/action_middle_click_titlebar "none"gconftool-2 --type string --set /apps/metacity/general/action_middle_click_titlebar "none"
+
