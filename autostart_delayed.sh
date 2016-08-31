@@ -9,5 +9,6 @@ dropbox stop && DBUS_SESSION_BUS_ADDRESS="" dropbox start  			# icon did not sho
 #/home/tomek/Skrypty/albert_kicker.sh &  # normal kill to safe partially alberts freq
 
 #chrome middle button
-gconftool-2 --type string --set /apps/metacity/general/action_middle_click_titlebar "none"gconftool-2 --type string --set /apps/metacity/general/action_middle_click_titlebar "none"
+gsettings set org.gnome.desktop.wm.preferences action-middle-click-titlebar 'none'
+gsettings set org.cinnamon.desktop.wm.preferences action-middle-click-titlebar 'none'
 
