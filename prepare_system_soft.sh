@@ -9,7 +9,7 @@ sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/Horst3180/
 
 
 sudo apt update 
-sudo apt full-upgrade
+sudo apt full-upgrade -y
 
 sudo apt install vim vim-gtk build-essentials autotools mc fish -y
 sudo apt install atom x2goclient doublecmd-gtk banshee -y
@@ -17,7 +17,7 @@ sudo apt install guake terminator -y
 sudo apt install openjdk-8-jre openjdk-8-jdk -y
 sudo apt install dropbox keepassx -y
 sudo apt install git gitk meld -y
-sudo apt install arc-theme -y
+sudo apt install arc-theme -y --allow-unauthenticated
 
 
 
