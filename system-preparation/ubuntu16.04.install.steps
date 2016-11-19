@@ -1,0 +1,21 @@
+1. sudo apt-get install compizconfig-settings-manager 
+2. skróty klawiszowe
+3. prepare_system_soft.sh
+4. zainstaluj playonlinux PRZED NETEXT73
+5. chrome
+6. ustawienia znaków -> wywalić skróty do zmiany tablicy znaków
+7. jeśli problem z czarnym ekranem po firmware super + p 
+8. Netext zainstalować
+9. ustawienie działania pokrywy
+10. obczaić http://www.omgubuntu.co.uk/2016/04/10-things-to-do-after-installing-ubuntu-16-04-lts
+11. arc-icon-theme
+12. install skypeforlinux
+13. dodać do autostartu: caffeine-indicator, guake, albert
+14. skróty klawiszowe do dźwięku via dconf "org.gnome.settings-daemon.plugins.media-keys" (z centrum strowania można przypisać tylko po jednym, a my chcemy te które są + dodatkowe)
+15. zablokowanie error-raporting sudo gedit /etc/default/apport
+16. fix na wifi po wstrzymaniu http://askubuntu.com/questions/761180/wifi-doesnt-work-after-suspend-after-16-04-upgrade
+17. virtualbox + ext pack + sudo usermod -a -G vboxusers $USER
+18. wunderlistux
+19. qnapi + dodanie do thunara/nautilusa akcji dla wideo
+20. http://askubuntu.com/questions/398030/change-default-sound-device
+21. config samba
