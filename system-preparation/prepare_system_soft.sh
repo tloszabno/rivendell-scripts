@@ -16,8 +16,9 @@ sudo apt update
 sudo apt full-upgrade -y
 
 sudo apt install unity-tweak-tool vim vim-gtk build-essential autotools-dev mc fish p7zip-full atom x2goclient doublecmd-gtk banshee \
- guake terminator openjdk-8-jre openjdk-8-jdk  keepassx git gitk meld arc-theme netext73 vlc nautilus-dropbox caffeine \
+ guake terminator openjdk-8-jre openjdk-8-jdk keepassx git gitk meld arc-theme netext73 vlc nautilus-dropbox caffeine \
  libdvd-pkg network-manager-openvpn network-manager-openvpn-gnome albert python-pip -y
+
 
 echo "Concider to install:"
 echo "chrome"
