@@ -1,0 +1,3 @@
+#!/bin/bash
+
+less /home/tomek/workspace/smart/smart-core/smart-core-ear/server/standalone/log/server.log

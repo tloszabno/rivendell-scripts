@@ -1,0 +1,5 @@
+#!/bin/bash
+
+PROC=`ps aux | grep jboss.modules | grep -v "grep" | awk  '{printf "%s ", $2}'`
+echo "Pids="$PROC
+kill -9 $PROC
