@@ -14,9 +14,9 @@ rm -rf Muzyka Dokumenty Wideo Zdjecia Obrazy
 cd ~
 ln -s $EXTERNAL_MOUNT_POINT $HOME_ALIAS
 
-ln -s $EXTERNAL_MOUNT_POINT/Downloads ~/Pobrane/Duze
-ln -s $EXTERNAL_MOUNT_POINT/Muzyka ~/Muzyka
-ln -s $EXTERNAL_MOUNT_POINT/Zdjecia ~/Zdjecia
+ln -s $EXTERNAL_MOUNT_POINT/Downloads ~/Downloads/Big
+ln -s $EXTERNAL_MOUNT_POINT/Muzyka ~/Music
+ln -s $EXTERNAL_MOUNT_POINT/Zdjecia ~/Photos
 ln -s $EXTERNAL_MOUNT_POINT/Movies ~/Wideo
 
 mkdir ~/Obrazy
