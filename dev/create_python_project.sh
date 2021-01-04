@@ -16,12 +16,6 @@ cd $PROJECT_NAME
 echo "[2] Creating git repository"
 git init
 
-touch .gitignore
-echo ".idea" >> .gitignore
-echo ".vscode" >> .gitignore
-echo "*.pyc" >> .gitignore
-
-
 echo "[3] Creating pipenv"
 pipenv --python 3
 
@@ -48,6 +42,8 @@ TODO: add description here
 endmsg
 echo "[6] adding .gitignore"
 touch .gitignore
+echo ".idea" >> .gitignore
+echo ".vscode" >> .gitignore
 echo "*.pyc" >> .gitignore
 
 echo "[7] Creating initial commit"
