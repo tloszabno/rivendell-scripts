@@ -1,6 +1,6 @@
 #!/bin/bash
 
-/home/tomek/Scripts/utils/keyboardsettings.sh &
+/home/tomek/Scripts/utils/keyboardsettings_forever.sh &
 guake &
 ulauncher &
 
