@@ -1,4 +1,3 @@
-alias _ sudo
 
 abbr gf "git fetch"
 abbr ga "git add ."
