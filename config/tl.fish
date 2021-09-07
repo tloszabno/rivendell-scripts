@@ -16,6 +16,8 @@ alias gpf "git push --force-with-lease"
 alias grhb "git reset --hard origin/(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/')"   # rebase with current branch on origin
 alias gclean "git branch --merged | grep  -v '\*\|master\|develop' | xargs -n 1 git branch -d"
 alias grmi "git rebase -i origin/master"
+alias grbc "git add . ;and git rebase --con"
+
 
 alias todo "trello add-card -b 'TLOS Board' -l 'Today'"
 alias mc "mc --nosubshell"
